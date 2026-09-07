@@ -3,6 +3,7 @@ on:
     workflow_call:
         inputs:
             APP_INGRESS_URL:
+                description: Provide the Ingress URL
                 required: true
                 type: string
 jobs:
